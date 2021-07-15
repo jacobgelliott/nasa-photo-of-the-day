@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import styled from "styled-components";
 
 export default function NasaPhoto(){
  const [photoData, setPhotodata] = useState(null);
@@ -31,3 +32,7 @@ export default function NasaPhoto(){
 )
 
 } 
+
+const title = styled.h1`
+    color: red;
+`
